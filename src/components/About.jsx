@@ -58,7 +58,7 @@ export default function About() {
           <ScrollReveal delay={200}>
             <div className="lg:sticky lg:top-28">
               <img
-                src="asset.jpg"
+                src="/asset.jpg"
                 alt="Campaign poster"
                 className="aspect-[3/4] w-full rounded-xl object-cover shadow-inner"
               />
