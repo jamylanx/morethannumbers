@@ -1,0 +1,34 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-navy: #1e293b;
+  --color-soft-gray: #f1f5f9;
+  --color-accent: #60a5fa;
+  --color-accent-dark: #3b82f6;
+  --font-heading: 'Poppins', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply m-0 bg-soft-gray font-body text-navy antialiased;
+  }
+
+  ::selection {
+    @apply bg-accent/30 text-navy;
+  }
+}
+
+@layer utilities {
+  .font-heading {
+    font-family: var(--font-heading);
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+}
