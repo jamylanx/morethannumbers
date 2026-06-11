@@ -41,4 +41,4 @@ npm run build
 npm run preview
 ```
 
-## PS. Please read config files accordingly if your new to libraries and frameworks such as React.js and Tailwind CSS
+## PS. Do check configuration files accordingly if your new to libraries and frameworks such as React.js and Tailwind CSS
