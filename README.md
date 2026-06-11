@@ -40,5 +40,4 @@ Edit `src/config/media.js`:
 npm run build
 npm run preview
 ```
-
-## PS. Do check configuration files accordingly if your new to libraries and frameworks such as React.js and Tailwind CSS
+## If you like then i like you too. Ja Matane (またね)
