@@ -1,8 +1,8 @@
-# More Than Numbers
+# More Than Numbers - Web Portfolio for Advance Multimedia
 
 Advocacy campaign portfolio website — academic pressure, self-worth beyond grades.
 
-## Required sections (included)
+## These are the required sections included
 
 | Section | Location |
 |--------|----------|
@@ -40,3 +40,5 @@ Edit `src/config/media.js`:
 npm run build
 npm run preview
 ```
+
+## PS. Please read config files accordingly if your new to libraries and frameworks such as React.js and Tailwind CSS
