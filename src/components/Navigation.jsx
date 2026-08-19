@@ -32,11 +32,10 @@ export default function Navigation({ visible }) {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? 'border-b border-white/10 bg-navy/95 shadow-lg backdrop-blur-md'
-          : 'bg-transparent'
-      }`}
+      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled
+        ? 'border-b border-white/10 bg-navy/95 shadow-lg backdrop-blur-md'
+        : 'bg-transparent'
+        }`}
     >
       <a
         href="#main"
@@ -50,7 +49,7 @@ export default function Navigation({ visible }) {
         aria-label="Main navigation"
       >
         <a
-          href="#hero"
+          href="../dist/assets/logo.png"
           className="font-heading text-sm font-semibold uppercase tracking-widest text-white"
         >
           MTN
@@ -106,9 +105,8 @@ export default function Navigation({ visible }) {
 
       <div
         id="mobile-menu"
-        className={`border-t border-white/10 bg-navy lg:hidden ${
-          menuOpen ? 'block' : 'hidden'
-        }`}
+        className={`border-t border-white/10 bg-navy lg:hidden ${menuOpen ? 'block' : 'hidden'
+          }`}
       >
         <ul className="flex flex-col gap-1 px-6 py-4">
           {LINKS.map(({ href, label }) => (
