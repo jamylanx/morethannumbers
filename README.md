@@ -40,4 +40,8 @@ Edit `src/config/media.js`:
 npm run build
 npm run preview
 ```
+P.S.
+
+This is currently a static website, so the contact form is not functional yet and does not submit or send messages to a backend.
+
 ## If you like this project then i like you too. Ja Matane (またね)
