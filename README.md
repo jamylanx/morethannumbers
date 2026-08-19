@@ -1,8 +1,8 @@
-# More Than Numbers
+# More Than Numbers - Web Portfolio for Advance Multimedia
 
 Advocacy campaign portfolio website — academic pressure, self-worth beyond grades.
 
-## Required sections (included)
+## These are the required sections included
 
 | Section | Location |
 |--------|----------|
@@ -40,3 +40,8 @@ Edit `src/config/media.js`:
 npm run build
 npm run preview
 ```
+P.S.
+
+This is currently a static website, so the contact form is not functional yet and does not submit or send messages to a backend.
+
+## If you like this project then i like you too. Ja Matane (またね)
