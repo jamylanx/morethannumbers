@@ -49,10 +49,8 @@ export default function Navigation({ visible }) {
         aria-label="Main navigation"
       >
         <a
-          href="../dist/assets/logo.png"
-          className="font-heading text-sm font-semibold uppercase tracking-widest text-white"
-        >
-          MTN
+          href="/" classname="flex items-center">
+          <img src="/mtb.png" alt="logo" className='h-10 w-10' />
         </a>
 
         <ul className="hidden items-center gap-6 lg:flex xl:gap-8">

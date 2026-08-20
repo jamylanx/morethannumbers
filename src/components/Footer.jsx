@@ -10,7 +10,7 @@ export default function Footer() {
           comparison.
         </p>
         <p className="mt-12 text-sm text-white/30">
-          &copy; {new Date().getFullYear()} More Than Numbers Advocacy Campaign
+          &copy; {new Date().getFullYear()} More Than Numbers Advocacy Campaign | Jaime Vasquez
         </p>
       </div>
     </footer>
